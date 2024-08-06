@@ -33,7 +33,7 @@ public class GetAvgRateQueryHandler : IRequestHandler<GetAvgRateQuery, Operation
             Code = rates.Data.Code,
             Currency = rates.Data.Currency,
             Table = rates.Data.Table,
-            Average =  rates.Data.Rates.Average(r => r.mid),
+            Average =  avg,
             Rate = rates.Data.Rates.OrderBy(rate => Math.Abs(rate.mid - avg)).FirstOrDefault()
         };
 
