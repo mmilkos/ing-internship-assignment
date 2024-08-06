@@ -25,5 +25,5 @@ Dla projektu API, jest zapewniony krótki przewodnik. Poniższe ustawienia są z
 
 ### Dokumentacja API
 
-Dokumentacja API jest dostępna po uruchomieniu w Swagger:
+Dokumentacja API (Swagger) dostępna po uruchomieniu aplikacji pod adresem:
 https://localhost:44309/swagger/index.html
